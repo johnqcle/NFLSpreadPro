@@ -1,0 +1,15 @@
+game_id,date,weekday,kickoff_et,away,home,line,div,big,favrest,v1_p_home_cover,p_home_cover,lean,p_lean,old_home_line
+2026_07_NE_CHI,2026-10-22,Thursday,20:15,NE,CHI,CHI -3.0,False,False,False,0.467,0.467,NE,0.533,-3.0
+2026_07_PIT_NO,2026-10-25,Sunday,09:30,PIT,NO,PIT -3.5,False,False,False,0.536,0.536,NO,0.536,3.5
+2026_07_SF_ATL,2026-10-25,Sunday,13:00,SF,ATL,SF -3.0,False,False,False,0.52,0.52,ATL,0.52,3.0
+2026_07_CIN_BAL,2026-10-25,Sunday,13:00,CIN,BAL,BAL -3.0,True,False,False,0.465,0.439,CIN,0.561,-3.0
+2026_07_TB_CAR,2026-10-25,Sunday,13:00,TB,CAR,CAR -3.5,True,False,False,0.477,0.451,TB,0.549,-3.5
+2026_07_NYG_HOU,2026-10-25,Sunday,13:00,NYG,HOU,HOU -10.0,False,True,False,0.369,0.327,NYG,0.673,-10.0
+2026_07_IND_MIN,2026-10-25,Sunday,13:00,IND,MIN,MIN -6.5,False,False,True,0.444,0.53,MIN,0.53,-6.5
+2026_07_MIA_NYJ,2026-10-25,Sunday,13:00,MIA,NYJ,NYJ -4.5,True,False,False,0.466,0.439,MIA,0.561,-4.5
+2026_07_CLE_TEN,2026-10-25,Sunday,13:00,CLE,TEN,CLE -1.5,False,False,False,0.515,0.515,TEN,0.515,1.5
+2026_07_DEN_ARI,2026-10-25,Sunday,16:05,DEN,ARI,DEN -4.5,False,False,True,0.555,0.469,DEN,0.531,4.5
+2026_07_GB_DET,2026-10-25,Sunday,16:25,GB,DET,DET -3.0,True,False,True,0.471,0.53,DET,0.53,-3.0
+2026_07_LA_LV,2026-10-25,Sunday,16:25,LA,LV,LA -4.5,False,False,False,0.576,0.576,LV,0.576,4.5
+2026_07_KC_SEA,2026-10-25,Sunday,20:20,KC,SEA,SEA -2.5,False,False,True,0.458,0.544,SEA,0.544,-2.5
+2026_07_DAL_PHI,2026-10-26,Monday,20:15,DAL,PHI,DAL -4.5,True,False,False,0.564,0.591,PHI,0.591,4.5

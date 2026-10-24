@@ -1,0 +1,11 @@
+# 2026 NFL ATS dataset (Lines Collector)
+- games_2026.csv: completed 2026 regular-season games, Weeks 1-6 complete, 93 games (16+16+16+16+15+14).
+- upcoming_2026.csv: the 14 Week 7 games (Oct 22-26), current lines, no scores. Byes: BUF, JAX, LAC, WAS. Week 7 PIT@NO (Oct 25, 9:30 ET) is a neutral-site international game.
+- Source: nflverse nfldata games.csv, pulled 2026-10-20 08:30 PT. Raw copy: nflverse_games.csv. Rebuild with `python3 /workspace/nfl/scripts/build_lines.py <pull-date>`.
+- favorite/spread = favored team and points ("PK" if pick'em); home_line = spread from the home team's view (negative = home favored). total = closing over/under line.
+- nflverse lines are consensus closing lines for finished games; upcoming lines are current and can still move.
+- location "Neutral" = neutral-site game (home team is the designated home side). Week 5 PHI@JAX (London, Tottenham), Week 6 HOU@JAX (London, Wembley), and Week 7 PIT@NO are Neutral.
+- Week 5 NYG@WAS ended in a 27-27 tie after overtime. Week 6 SEA@DEN and PIT@TB went to overtime.
+- Spot-checked 2026-10-20 against ESPN: WAS 17 @ SF 23 (SF -7.5, O/U 51.5, exact match), ARI 18 @ LA 16, SEA 14 @ DEN 17 (OT). All scores match. ESPN's DraftKings close differs slightly from the nflverse consensus close on two games: ARI@LA (DK LA -13.5 vs consensus -12.5, total 51.5 both) and SEA@DEN (DK SEA -3 vs consensus -2.5, total 40.5 both). The dataset keeps the nflverse consensus numbers.
+- Earlier spot check (2026-10-13): BUF 37 @ LA 34 (OT), NYG 27 @ WAS 27 (OT tie), PHI 17 @ JAX 19. Scores and lines matched.
+- Gaps: none. No missing lines or scores in either file; all 14 Week 6 games are in the source.
